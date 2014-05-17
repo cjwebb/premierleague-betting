@@ -3,14 +3,7 @@
             [clojure.java.io :as io])
   (:gen-class))
 
-;HomeTeam = Home Team
-;AwayTeam = Away Team
-;FTHG = Full Time Home Team Goals
-;FTAG = Full Time Away Team Goals
-;B365H = Bet365 home win odds
-;B365D = Bet365 draw odds
-;B365A = Bet365 away win odds
-
+; downloaded from http://www.football-data.co.uk/mmz4281/0910/E0.csv
 (def season-09-10
   "/Users/colin/Downloads/09-10.csv")
 
